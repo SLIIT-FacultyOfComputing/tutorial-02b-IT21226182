@@ -11,7 +11,7 @@ int main()
     int no;
     long fac;
 
-    count<<"Enter a Number : ";
+    cout<<"Enter a Number : ";
     cin>>no;
 
     fac = 1;
@@ -19,6 +19,6 @@ int main()
         fac = fac * r;
     }
 
-    count<<"Factorial of is "<<no<<fac"\n";  
+    cout<<"Factorial of no is "<<no<<fac<<endl;  
     return 0;
 }
